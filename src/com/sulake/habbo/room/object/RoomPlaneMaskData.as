@@ -1,0 +1,44 @@
+package com.sulake.habbo.room.object
+{
+   public class RoomPlaneMaskData
+   {
+       
+      
+      private var var_2392:Number = 0.0;
+      
+      private var var_2391:Number = 0.0;
+      
+      private var var_2402:Number = 0.0;
+      
+      private var var_2401:Number = 0.0;
+      
+      public function RoomPlaneMaskData(param1:Number, param2:Number, param3:Number, param4:Number)
+      {
+         super();
+         this.var_2392 = param1;
+         this.var_2391 = param2;
+         this.var_2402 = param3;
+         this.var_2401 = param4;
+      }
+      
+      public function get leftSideLoc() : Number
+      {
+         return this.var_2392;
+      }
+      
+      public function get rightSideLoc() : Number
+      {
+         return this.var_2391;
+      }
+      
+      public function get leftSideLength() : Number
+      {
+         return this.var_2402;
+      }
+      
+      public function get rightSideLength() : Number
+      {
+         return this.var_2401;
+      }
+   }
+}
